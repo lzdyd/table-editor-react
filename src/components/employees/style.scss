@@ -1,0 +1,16 @@
+.table.employeesTable {
+  display: table;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  .table-row {
+    display: table-row;
+
+    .table-cell {
+      display: table-cell;
+      min-width: 80px;
+      padding: 10px;
+      text-align: left;
+    }
+  }
+}

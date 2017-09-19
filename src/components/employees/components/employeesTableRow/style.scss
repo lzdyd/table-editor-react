@@ -1,0 +1,13 @@
+.table-row.table-row-data {
+  &:not(:last-child) {
+    .table-cell {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+
+  .table-cell {
+    &:not(:last-child) {
+      border-right: 1px solid #ddd;
+    }
+  }
+}
