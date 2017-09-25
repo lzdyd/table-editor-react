@@ -1,9 +1,0 @@
-.table-row-headers {
-  .table-cell-headers {
-    border-bottom: 3px solid #ddd;
-
-    &:not(:last-child) {
-      border-right: 1px solid #ddd;
-    }
-  }
-}

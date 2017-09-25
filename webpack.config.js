@@ -24,7 +24,10 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
+    alias: {
+      api: path.resolve(__dirname, 'src/services/api')
+    }
   },
 
   devtool: NODE_ENV === 'development' ? 'eval' : false,

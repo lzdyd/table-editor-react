@@ -1,0 +1,37 @@
+.table.employees-table {
+  display: table;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  .table-row {
+    display: table-row;
+
+    &:nth-child(even) {
+      background-color: #f8f8f8;
+    }
+
+    .table-cell {
+      display: table-cell;
+      min-width: 80px;
+      padding: 10px;
+      text-align: left;
+
+      &:not(:last-child) {
+        border-right: 1px solid #ddd;
+      }
+    }
+  }
+
+  .table-row-headers {
+    .table-cell-headers {
+      border-bottom: 3px solid #ddd;
+
+      &:not(:last-child) {
+        border-right: 1px solid #ddd;
+      }
+    }
+  }
+  .table-row.selected {
+    background-color: rgba(100,162,246,0.31);
+  }
+}
